@@ -1,0 +1,6 @@
+bower_components/jquery/dist/jquery.js
+bower_components/jquery/dist/jquery.min.map
+bower_components/jquery/src/*
+bower_components/jquery/.bower.json
+bower_components/jquery/bower.json
+bower_components/jquery/MIT-LICENSE.txt

@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Fun</title>
 	<script type="text/javascript" src="bower_components\jquery\dist\jquery.js"></script>
 	<script type="text/javascript">
+	
 	// Shorthand for $( document ).ready()
-		$(function() {
+	$(function() {
 			alert("The Page Just Loaded");
 		});
+	
+	// executes when HTML-Document is loaded and DOM is ready
+	$( document ).ready(function() {
+        console.log( "document loaded" );
+    });
+ 	
+	// executes when complete page is fully loaded, including all frames, objects and images
+    $( window ).load(function() {
+        console.log( "window loaded" );
+    });
 	</script>
 </head>
+
 <body>
-	
+	<iframe src="http://theWhiteFox.ninja" frameborder="0"></iframe>
 </body>
 </html>
